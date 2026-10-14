@@ -7,7 +7,7 @@
   <meta name="description" content="Buquês e arranjos de flores frescas em Bragança Paulista. Escolha no catálogo e peça direto pelo WhatsApp com entrega rápida." />
   <meta property="og:title" content="Floricultura Art Flor Bragança" />
   <meta property="og:description" content="Surpreenda quem você ama com as flores mais frescas de Bragança." />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=1200&q=80" />
+  <meta property="og:image" content="https://raulramos11.github.io/art-flor-braganca/img/girassois-rosas.jpg" />
   <meta name="theme-color" content="#7d9479" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -154,9 +154,13 @@
       </div>
       <div>
         <h3 class="font-semibold text-sage-800">Redes sociais</h3>
-        <a href="https://instagram.com/artflorbraganca" target="_blank" rel="noopener" class="mt-2 inline-flex items-center gap-2 text-wine-500 hover:underline">
+        <a href="https://instagram.com/farteflor" target="_blank" rel="noopener" class="mt-2 inline-flex items-center gap-2 text-wine-500 hover:underline">
           <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
-          @artflorbraganca
+          @farteflor
+        </a>
+        <a href="#" data-wa="Olá! Vim pelo site 🌷" class="mt-2 flex items-center gap-2 text-sage-700 hover:underline">
+          <svg class="h-5 w-5 text-whats-600" aria-hidden="true"><use href="#ico-wa"/></svg>
+          (11) 96186-5115
         </a>
       </div>
     </div>
@@ -177,16 +181,15 @@
 
   <script>
     // Número da loja no formato internacional (55 + DDD + número). TROCAR pelo número real.
-    const WHATSAPP = '5511999999999';
+    const WHATSAPP = '5511961865115';
 
-    // Catálogo: edite aqui nomes, preços, descrições e imagens.
+    // Catálogo: edite aqui nomes, preços, descrições e imagens (fotos reais da loja em img/).
     const PRODUTOS = [
-      { nome: 'Buquê de Girassóis', preco: 120, desc: 'Girassóis vibrantes com folhagens nobres.', img: 'https://via.placeholder.com/400x500', tag: 'Mais vendido' },
-      { nome: 'Buquê 12 Rosas Vermelhas', preco: 189.9, desc: 'O clássico do amor, com papel de seda e laço.', img: 'https://via.placeholder.com/400x500', tag: 'Romântico' },
-      { nome: 'Arranjo Campestre', preco: 149.9, desc: 'Mix de flores do campo em cesto rústico.', img: 'https://via.placeholder.com/400x500' },
-      { nome: 'Orquídea Phalaenopsis', preco: 135, desc: 'Orquídea em vaso de cerâmica, dura semanas.', img: 'https://via.placeholder.com/400x500' },
-      { nome: 'Box Rosas & Chocolates', preco: 219.9, desc: 'Caixa luxo com rosas e bombons finos.', img: 'https://via.placeholder.com/400x500', tag: 'Presente' },
-      { nome: 'Buquê Delicadeza Rosé', preco: 159.9, desc: 'Rosas cor-de-rosa, lisianthus e gypsophila.', img: 'https://via.placeholder.com/400x500' }
+      { nome: 'Buquê 12 Rosas Vermelhas', preco: 189.9, desc: 'Rosas com brilho, tango e samambaia, finalizado com laço vermelho.', img: 'img/rosas-12.jpg', tag: 'Mais vendido' },
+      { nome: 'Buquê de Girassóis', preco: 120, desc: 'Girassóis vibrantes com folhagens nobres e amarração em ráfia.', img: 'img/girassois.jpg' },
+      { nome: 'Buquê Girassóis & Rosas', preco: 159.9, desc: 'Mix de girassóis e rosas vermelhas em papel verde sálvia.', img: 'img/girassois-rosas.jpg', tag: 'Novidade' },
+      { nome: 'Buquê Luxo de Rosas', preco: 249.9, desc: 'Um volume generoso de rosas vermelhas para impressionar de verdade.', img: 'img/rosas-luxo.jpg', tag: 'Premium' },
+      { nome: 'Buquê 6 Rosas com Renda', preco: 119.9, desc: 'Rosas com brilho em papel rendado de corações. Delicado e romântico.', img: 'img/rosas-6-renda.jpg', tag: 'Romântico' }
     ];
 
     const brl = v => v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
